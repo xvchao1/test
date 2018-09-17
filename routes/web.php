@@ -12,3 +12,9 @@
 */
 
 Route::get('/', 'HomeController@home');
+
+Route::get('/a','AController@index');
+
+Route::get('/b','BController@index');
+
+Route::get('/c','CController@index');
